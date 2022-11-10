@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body{
+  background-color: cornsilk;
+  font-family: sans-serif;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+h1{
+  text-align: center;
+  padding: 2%;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px #ced4da;
+}
+h2{
+  text-align: center;
+  padding: 2%;
+  width: 100%;
+}
+/* header{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding: 10px;
+  align-items: center;
+  background-color: #1E8449;
+  right: 50%;
+  left: 50%;
+}
+header a{
+  text-decoration: none;
+  color: #1b1b1b;
+}
+.logo{
+  display: flex;
+}
+.logo img{
+  height: 70px;
+  align-items: center;
+
+}
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+}
+ul{
+  list-style-type: none;
+  background-color: #F2F2F2;
+  overflow: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  float: left;
+}
+li a:hover {
+  color: #1d1a1a;
+}
+li a{
+  display: block;
+  color:#6b3f33;
+  text-align: center;
+  padding: 15px;
+} */
+main {
+  width: 100%;
+  max-height: auto;
+  min-height: auto;
+  margin: 0%;
+  text-align: center;
+}
+.fechas{
+  text-align: center;
+}
+.fechas img{
+  width: 100%;
+}
+.fechas a{
+  font-size: medium;
+}
+.videos{
+  text-align: center;
+}
+.videos iframe{
+  width: 70%;
+  height: 450px;
+}
+.fotoGrupal{
+  width: 100%;
+}
+.fotoGrupal p{
+  width: 75%;
+  margin: auto;
+  text-align: justify;
+}
+.integrantes{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.integrantes img{
+  height: 600px;
+  position: center;
+  justify-content: center;
+}
+.integrantes div{
+  margin: 30px;
+}
+.gridContainerIntegrantes{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+.gridContainerIntegrantes div{
+  text-align: center;
+}
+.tapaDisco{
+  display: flex;
+  width: 750px;
+  padding: auto;
+}
+.tapaDisco div{
+  margin: 50px;
+}
+.tapaDisco img{
+  width: 550px;
+  margin-left: 35px;
+  margin-bottom: 35px;
+}
+.tapaDisco img:hover{
+  transform: scale(1.2, 1.2);
+  transition-delay: 0.5s;
+  transition-duration: 1s;
+}
+.tapaDisco li{
+  line-height: 2;
+}
+.tapaDisco li:hover{
+  transform: scale(1, 1);
+}
+/* .temas{
+  width: 125px;
+  display: block;
+  text-align: start;
+  margin-left: 220px;
+} */
+.gridContainerDisco{
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+footer{
+  background-color: #373636;
+  width: 100%;
+  /* padding: 1em 0; */
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+.redes{
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 60px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.redes svg{
+  width: 40px;
+  height: 40px;
+  justify-content: space-between;
+  display: row;
+  color: #fff;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+}
+.redes svg:hover{
+  transform: scale(1.2, 1.2);
+  color: #1E8449;
+}
+.copyright{
+  background-color: #0a1a20;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+.copyright small{
+  font-size: 15px;
+}
+.contenedor {
+  margin: auto;
+  width: 500px;
+  padding: 30px;
+  background: #1E8449;
+  border-radius: 10px;
+}
+
+.contenedor h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  font-size: 30px;
+  color: #6b3f33;
+  text-align: center;
+}
+
+.contenedor .elemento label {
+  color: #000000;
+}
+
+.contenedor .elemento input {
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 30px;
+}
+
+.contenedor .elemento input[type="submit"] {
+  background-color: #6b3f33;
+  border: none;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  header {
+      display: flex;
+      justify-content:last baseline;
+      height: 50px;
+      padding: 10px;
+      align-items: center;
+      background-color: #1E8449;
+      /* right: 50%; */
+      /* left: 50%; */
+    }
+}
